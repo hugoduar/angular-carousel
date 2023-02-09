@@ -1,39 +1,30 @@
 {
   "name": "angular-responsive-carousel",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+  "version": "2.1.13",
+  "description": "Carousel for Angular. A simple solution for horizontal scrolling images with lazy loading.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugoduar/angular-carousel.git"
+  },
+  "author": {
+    "name": "Hugo",
+    "email": "hugoduar1@gmail.com"
+  },
+  "homepage": "http://ivylab.space/carousel",
+  "keywords": [
+    "Angular",
+    "ngx",
+    "Carousel",
+    "Swiper",
+    "Lazy loading",
+    "Image slider"
+  ],
+  "license": "Apache License 2.0",
+  "peerDependencies": {
+    "@angular/common": "^15.1.4",
+    "@angular/core": "^15.1.4"
   },
   "dependencies": {
-    "@angular/animations": "15.1.4",
-		"@angular/common": "15.1.4",
-		"@angular/compiler": "15.1.4",
-		"@angular/core": "15.1.4",
-		"@angular/forms": "15.1.4",
-		"@angular/platform-browser": "15.1.4",
-		"@angular/platform-browser-dynamic": "15.1.4",
-		"@angular/router": "15.1.4",
-    "rxjs": "~7.8.0",
-    "tslib": "^2.5.0",
-    "zone.js": "~0.12.0"
-  },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "15.1.5",
-		"@angular/cli": "15.1.5",
-		"@angular/compiler-cli": "15.1.4",
-    "@types/jasmine": "4.3.1",
-    "@types/node": "^18.13.0",
-    "jasmine-core": "~4.5.0",
-    "karma": "~6.4.1",
-    "karma-chrome-launcher": "~3.1.1",
-    "karma-coverage": "~2.2.0",
-    "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "^2.0.0",
-    "ng-packagr": "^15.1.1",
-    "typescript": "~4.9.5"
+    "tslib": "^2.5.0"
   }
 }
